@@ -8,12 +8,11 @@
 html {
     font-size: 10px;
     font-family: 'Montserrat', sans-serif;
+}
+body {
     background-image: url(./assets/blurry-gradient-haikei.png);
     background-repeat: no-repeat;
     background-size: cover;
-}
-body {
-    
 }
 img {
     height: 100%;
