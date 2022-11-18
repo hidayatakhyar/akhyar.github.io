@@ -191,7 +191,7 @@ label #close {
 }
 .portfolio .box {
     scroll-snap-align: center;
-    width: 400px;
+    width: 300px;
     margin: 30px 8px;
     flex: none;
     border: 1px solid #EFB442;
@@ -246,12 +246,12 @@ label #close {
 }
 .contact h1 {
     padding-top: 50px;
+    font-size: 40px;
 }
 .contact h2 {
-    font-size: 24px;
+    font-size: 20px;
     color: #EFB442;
     padding-bottom: 50px;
-    text-decoration: underline;
 }
 .contact .box-container {
     display: flex;
@@ -271,13 +271,13 @@ label #close {
     background-color: #263138;
 }
 .contact .box-contact p {
-    font-size: 30px;
+    font-size: 15px;
     color: white;
-    margin-right: 10px;
+    margin-right: 25px;
     font-family: 'Playfair Display', serif;
 }
 .contact .box-contact i{
-    font-size: 30px;
+    font-size: 20px;
     color: #1a1f22;
 }
 .contact .box-contact:hover {
@@ -288,6 +288,9 @@ label #close {
 
 
 @media screen and (max-width: 992px){
+    body {
+        overflow: hidden;
+    }
     h1 {
         font-size: 40px;
     }
@@ -384,6 +387,7 @@ label #close {
     }
     .contact .box-contact i {
         font-size: 15px;
+        color: #EFB442;
     }
     /* end contact */
 }
