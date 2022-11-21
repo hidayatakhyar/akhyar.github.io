@@ -288,6 +288,11 @@ label #close {
 
 
 @media screen and (max-width: 992px){
+    body {
+        width: 100vw;
+        height: 100vh;
+        overflow-x: hidden;
+    }
     h1 {
         font-size: 40px;
     }
@@ -387,4 +392,12 @@ label #close {
         color: #EFB442;
     }
     /* end contact */
+}
+@media screen and (max-width: 768px){
+    body {
+        width: 100vw;
+        height: 100vh;
+        overflow-x: hidden;
+    }
+
 }
